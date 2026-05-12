@@ -1,0 +1,22 @@
+=== 3 PREDIKSI BENAR ===
+
+[true=negative, pred=negative]
+The story of the bride fair is an amusing and engaging one, and it is to the filmmaker's credit that he sets out to portray rural Minnesotans with the same respect ordinarily reserved for Coast-dwellers. It is weird, though, to find an independent movie, the brainchild of a single person, that is as unambitious and cliché-ridden as a committee-brewed Hollywood potboiler.<br /><br />The portrait of...
+
+[true=positive, pred=positive]
+A team varied between Scully and Mulder, two other scientists, a pilot, and the guy who plays Bana on Seinfeld, go up to an Arctic research post where all members have died off by either killing each other or killing themselves. They discover there's a worm- a virus- that is parasitic to the point of madness and death. The problem is, after a certain dog lashes out, anyone could be infected, but w...
+
+[true=negative, pred=negative]
+This was a popular movie probably because of the humor in it, the fast-moving story, an underdog character who shuts up all the loudmouths, etc. Funny thing is, you probably couldn't make a movie with this title if you substituted anybody but "white" as anything else would be deemed racist by the PC police. <br /><br />Nonetheless, Woody Harrleson as the white guy who turns out to be as good if no...
+
+
+=== 3 PREDIKSI SALAH ===
+
+[true=negative, pred=positive]
+Yes, MTV there really is a way to market Daria. What started as a clever teenage angst-"comment on everything that sucks and make the viewer feel better about their sucky teenage life" sitcom now mutated into a "how you should deal with your problems"-charade. I used to watch Daria all the time and loved it. Now, sitting here after watching the so called "movie" I can only wonder what the point of...
+
+[true=negative, pred=positive]
+There is a uk edition to this show which is rather less extravagant than the US version. The person concerned will get a new kitchen or perhaps bedroom and bathroom and is wonderfully grateful for what they have got. The US version of this show is everything that reality TV shouldn't be. Instead of making a few improvements to a house which the occupants could not afford or do themselves the entir...
+
+[true=negative, pred=positive]
+Little Quentin seems to have mastered the art of having the cake and eating it.<br /><br />As usual, the pure sadistic display can be explained as a clever thought-provoking way of sending violence back into the audience's face.<br /><br />Sure, Mr Tarantino. Violence is Baaad. Sadism is Baaad. It is well worth wading in it to make that point. How very brilliant.<br /><br />The juvenile part of th...
