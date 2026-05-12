@@ -2,9 +2,6 @@
 
 Tugas mata kuliah **Topik Pembelajaran Mesin** — implementasi *from-scratch* Transformer pada tiga domain: klasifikasi teks, klasifikasi gambar (Vision Transformer), dan *super-resolution* gambar non-klasifikasi.
 
-**Nama:** Firmansyah Sundana  
-**NIM:** 257150100011009
-
 ---
 
 ## Dataset
