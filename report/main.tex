@@ -3,12 +3,10 @@
 % ─────────────────────────── encoding & language
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[indonesian]{babel}
+\usepackage[provide=*,indonesian]{babel}
 
 % ─────────────────────────── page layout (two-column academic)
 \usepackage[a4paper,margin=2cm]{geometry}
-\usepackage{multicol}
-\setlength{\columnsep}{0.7cm}
 
 % ─────────────────────────── typography
 \usepackage{lmodern}
@@ -62,27 +60,22 @@
 }
 
 \author{
-  Sundana Firmansyah\thanks{Email: sundanafirmansyah@gmail.com}\\
-  \textit{NIM: [diisi mahasiswa]}\\
-  \textit{Mata Kuliah: Deep Learning}
+  Firmansyah Sundana\thanks{Email: sundana@student.ub.ac.id}\\
+  \textit{NIM: 257150100011009}\\
+  \textit{Mata Kuliah: Topik Pembelajaran Mesin}
 }
 \date{12 Mei 2026}
 
 \begin{document}
 
-\twocolumn[
-  \begin{@twocolumnfalse}
-    \maketitle
-    \begin{abstract}
-      \noindent\textbf{Abstrak.}
-      Laporan ini menyajikan implementasi \emph{from-scratch} arsitektur Transformer pada tiga domain: (i) klasifikasi sentimen teks pada dataset IMDb (50K review), (ii) klasifikasi gambar pada CIFAR-10 menggunakan Vision Transformer (ViT), dan (iii) tugas non-klasifikasi berupa \emph{Single Image Super-Resolution} menggunakan model Swin2SR yang telah dilatih sebelumnya (\emph{pretrained}). Hasil eksperimen menunjukkan bahwa Transformer tidak selalu unggul: pada IMDb, Transformer hanya unggul tipis (87{,}51\%) dibandingkan MLP sederhana (87{,}03\%), sementara pada CIFAR-10, SmallResNet (76{,}17\%) mengungguli ViT (66{,}03\%) sebesar 9{,}5 poin persentase dengan jumlah parameter $\sim$3$\times$ lebih sedikit. Pengaruh hiperparameter struktural (panjang sekuens, ukuran \emph{patch}) terhadap akurasi diukur dan dianalisis. Selanjutnya, dilakukan modifikasi terhadap kode Swin2SR berupa \emph{tiled inference} dengan \emph{feathered blending} untuk mendukung gambar berukuran sembarang tanpa OOM (\emph{Out-Of-Memory}); validasi menunjukkan output identik dengan inferensi biasa (rata-rata selisih piksel $\approx 0{,}05\%$). Studi ini menegaskan bahwa \emph{inductive bias} arsitektur konvolusional masih relevan pada dataset kecil, sementara Transformer memerlukan data masif atau \emph{pretraining} untuk mencapai potensi penuhnya.
+\maketitle
+\begin{abstract}
+  \noindent\textbf{Abstrak.}
+  Laporan ini menyajikan implementasi \emph{from-scratch} arsitektur Transformer pada tiga domain: (i) klasifikasi sentimen teks pada dataset IMDb (50K review), (ii) klasifikasi gambar pada CIFAR-10 menggunakan Vision Transformer (ViT), dan (iii) tugas non-klasifikasi berupa \emph{Single Image Super-Resolution} menggunakan model Swin2SR yang telah dilatih sebelumnya (\emph{pretrained}). Hasil eksperimen menunjukkan bahwa Transformer tidak selalu unggul: pada IMDb, Transformer hanya unggul tipis (87{,}51\%) dibandingkan MLP sederhana (87{,}03\%), sementara pada CIFAR-10, SmallResNet (76{,}17\%) mengungguli ViT (66{,}03\%) sebesar 9{,}5 poin persentase dengan jumlah parameter $\sim$3$\times$ lebih sedikit. Pengaruh hiperparameter struktural (panjang sekuens, ukuran \emph{patch}) terhadap akurasi diukur dan dianalisis. Selanjutnya, dilakukan modifikasi terhadap kode Swin2SR berupa \emph{tiled inference} dengan \emph{feathered blending} untuk mendukung gambar berukuran sembarang tanpa OOM (\emph{Out-Of-Memory}); validasi menunjukkan output identik dengan inferensi biasa (rata-rata selisih piksel $\approx 0{,}05\%$). Studi ini menegaskan bahwa \emph{inductive bias} arsitektur konvolusional masih relevan pada dataset kecil, sementara Transformer memerlukan data masif atau \emph{pretraining} untuk mencapai potensi penuhnya.
 
-      \medskip
-      \noindent\textit{Kata kunci---}\,Transformer, Vision Transformer, Klasifikasi Teks, IMDb, CIFAR-10, Super-Resolution, Swin2SR, \emph{Tiled Inference}.
-    \end{abstract}
-    \vspace{0.6cm}
-  \end{@twocolumnfalse}
-]
+  \medskip
+  \noindent\textit{Kata kunci---}\,Transformer, Vision Transformer, Klasifikasi Teks, IMDb, CIFAR-10, Super-Resolution, Swin2SR, \emph{Tiled Inference}.
+\end{abstract}
 
 % ════════════════════════════════════════════════════════════════════
 \section{Pendahuluan}
